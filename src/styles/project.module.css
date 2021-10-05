@@ -1,0 +1,13 @@
+.modalImg{
+    max-width: 40%;
+}
+
+.modalButton{
+    background-color: #ff9901;
+    border-radius:5px;
+    margin-right: 10px;
+}
+
+.modalText{
+    padding-right:1em;
+}
