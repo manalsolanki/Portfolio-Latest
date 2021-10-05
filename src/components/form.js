@@ -1,10 +1,9 @@
-import { useState } from "react";
-import classnames from "classnames";
+// import { useState } from "react";
 import {
   FaEnvelope,
   FaGithub,
   FaLinkedinIn,
-  FaTelegramPlane,
+  // FaTelegramPlane,
   FaFilePdf,
 } from "react-icons/fa";
 import classes from "../styles/content.module.css";
@@ -14,7 +13,7 @@ import classes from "../styles/content.module.css";
 // const APP_SECRET = process.env.APP_SECRET;
 
 const ContactForm = props => {
-  const [message, setMessage] = useState({ error: false, text: "" });
+  // const [message, setMessage] = useState({ error: false, text: "" });
   const goToGit = () => {
     window.open("https://github.com/manalsolanki");
   };
