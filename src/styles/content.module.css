@@ -212,6 +212,11 @@
   font-weight: bold;
   padding: 10px 15px;
   font-size: 1.1rem;
+  width: fit-content;
+
+}
+.projectDesc{
+  padding-top: 1.5em;
 }
 @media screen and (max-width: 576px) {
   .hideInMobile, .selfImg {
@@ -230,10 +235,16 @@
     justify-content: space-evenly;
     padding: 15px 0;
   }
+  .projectContainer {
+    grid-template-columns: 1fr ;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .serviceContainer{
     grid-template-columns: 1fr 1fr;
+  }
+  .projectContainer {
+    grid-template-columns: 1fr ;
   }
 }

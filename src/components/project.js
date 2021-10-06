@@ -16,7 +16,7 @@ const Project = (props) => {
                     <div className={classes.projectTitle}>{props.project.name}</div>
                     <img src={props.project.imgSrc} alt="project" />
                 </div>
-                <p>{props.project.shortDescription}</p>
+                <p className={classes.projectDesc}>{props.project.shortDescription}</p>
                 {/* </a>  */}
             </div>
             <Modal show={show} size="lg" centered>
@@ -31,9 +31,9 @@ const Project = (props) => {
                             <p><b>Roles :</b> {props.project.roles}</p>
                             <p>{props.project.Description}</p>
                             <div>
-                               {gotoGithub && <button className={projectClasses.modalButton} onClick={gotoGithub}>GitHub</button>} 
+                            {props.project.github && <button className={projectClasses.modalButton} onClick={gotoGithub}>GitHub</button>} 
                             
-                            <button className={projectClasses.modalButton} onClick={goLive}>Demo</button>
+                            <button className={projectClasses.modalButton} onClick={goLive}>Live</button>
                             </div>
                         </div>
                         <img className={projectClasses.modalImg} src={props.project.imgSrc} alt="project"/>

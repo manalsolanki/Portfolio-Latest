@@ -20,30 +20,30 @@ const projects = [
     },
     {
     "name": "Amazon Replica",
-    "Description": "I have created a replica of the Amazon website using nodeJs , express handlerbars and Mongodb.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
+    "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
     "link": "https://amazon-website-assignment.herokuapp.com/",
     "imgSrc": "/Amazon.png",
-    "shortDescription": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
+    "shortDescription": "I have created a replica of the Amazon website using NodeJs, express handlerbars and Mongodb.This includes different modules like registration,sign up,cart or adding items. ",
     "github":"https://github.com/manalsolanki/Amazon-Assignment",
     "roles":"Developer, Designer",
     "Technologies":"NodeJs , Express handlerbars and Mongodb"
 },
 {
     "name": "Beats On Travel",
-    "shortDescription":"The Project “ Beats on Travel“ is a application which calculates the travel time on car(that is distance between one city to another) and according to that travel time a song is played.",
+    "shortDescription":"The Project “Beats on Travel“ is a application which calculates the travel time on car(that is distance between one city to another) and according to that travel time a song is played.",
     "link": "https://beats-on-travel.netlify.app/",
     "imgSrc": "/beatsOnTravel.png",
-    "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
+    "Description":"This project was made as a part of an assignment for one of my course at Humber. I had to use two API and design the website.So I decide to do Beats o Travel which caluclates and distance and suggest a song using yotube api.",
     "github":"https://github.com/manalsolanki/API-Assignment",
     "roles":"Developer, Designer",
     "Technologies":"Youtube Api, Google Distance Matrix Api"
 },
 {
     "name": "Addidas Landing Page",
-    "shortDescription": "The main aim of this project was to design the landing page using Adobe tools.",
+    "shortDescription": "The main aim of this project was to design the landing page using Adobe tools and basic HTML & CSS.",
     "link": "https://manalsolanki.github.io/landingpage-adidas/",
     "imgSrc": "/final-design.png",
-    "Description": "The main aim of this project was to design the landing page using Adobe tools.The tools which are used are XD for wireframes and photoshop for editing the photos as well as creating icons.Also have prepared the html version of this single page website. Intially created the wireframes and them accordingly created the websites from it.",
+    "Description": "The main aim of this project was to design the landing page using Adobe tools.The tools which are used are XD for wireframes and photoshop for editing the photos as well as creating icons.Also have prepared the html version of this single page website. Intially created the wireframes and then accordingly created the websites from it.",
     "github":"https://github.com/manalsolanki/landingpage-adidas",
     "roles":"Designer, Developer",
     "Technologies":"Adobe XD, Photoshop"
@@ -61,7 +61,7 @@ const projects = [
 },
 {
     "name": "Travelocity Replica",
-    "shortDescription":"Designed the layout as well as go. Also prepared wireframes and website using the best pratices.",
+    "shortDescription":"Designed the layout as well as logo. Also prepared wireframes and website using the best pratices.",
     "link": "https://manalsolanki.github.io/composite_project_1/",
     "imgSrc": "/travelocity.png",
     "Description": "Designed the layout as well as the logo of this website using Adobe XD and Illustrator respectively.Also prepared low and high fedility wireframes.After desiging developed the website keeping in mind the best practices of SEO as well as used the HTML5 and CSS3 format for designing.",
