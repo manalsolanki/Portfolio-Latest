@@ -159,7 +159,25 @@
 
 .hideInMobile {
 }
-
+.experienceImg{
+  height: 250px;
+  max-width:500px
+}
+.experienceImg img{
+  border: 1px solid black;
+}
+.experienceLink{
+  margin-top:10px;
+  
+}
+.experienceLink a
+{
+  padding: 10px 15px 10px 15px;
+  border: 1px solid #ff9901;
+  background-color: #ff9901;
+  text-decoration: none;
+  color:white;
+}
 .success{
   color: green;
 }

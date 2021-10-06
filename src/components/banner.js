@@ -1,4 +1,5 @@
 import classes from "../styles/index.module.css";
+import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import Typed from "react-typed";
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaFilePdf } from "react-icons/fa";
 
@@ -12,11 +13,30 @@ const Banner = (props) => {
   };
 
   const downloadResume = () => {
-		window.open('/ManalSolanki-WebDeveloper.pdf');
-	};
-
+    window.open('/ManalSolanki-WebDeveloper.pdf');
+  };
+  const RenderTooltipEmail = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Email
+    </Tooltip>
+  );
+  const RenderTooltipResume = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Resume
+    </Tooltip>
+  );
+  const RenderTooltipLinkedin = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Linked In
+    </Tooltip>
+  );
+  const RenderTooltipGithub = (props) => (
+    <Tooltip id="button-tooltip" {...props}>
+      Github
+    </Tooltip>
+  );
   return (
-    <div className={classes.banner}>
+    <article className={classes.banner}>
       <div className={classes.bannerOverlay} />
       <div className={classes.bannerText}>
         <p>Hello,</p>
@@ -41,22 +61,47 @@ const Banner = (props) => {
         </p>
       </div>
       <div className={classes.iconContainer}>
+        
+          <OverlayTrigger
+            placement="left"
+            delay={{ show: 250, hide: 400 }}
+            overlay={RenderTooltipEmail}
+          >
         <div className={classes.iconDiv}>
-          <a href="mailto:97manal@gmail.com">
-            <FaEnvelope style={{color:"white"}} />
-          </a>
+            <a href="mailto:97manal@gmail.com">
+              <FaEnvelope style={{ color: "white" }}  />
+            </a>
         </div>
+        </OverlayTrigger>
+        <OverlayTrigger
+            placement="left"
+            delay={{ show: 250, hide: 400 }}
+            overlay={RenderTooltipResume}
+          >
         <div className={classes.iconDiv} onClick={downloadResume}>
           <FaFilePdf />
         </div>
+        </OverlayTrigger>
+        <OverlayTrigger
+            placement="left"
+            delay={{ show: 250, hide: 400 }}
+            overlay={RenderTooltipLinkedin}
+          >
         <div className={classes.iconDiv} onClick={goToLinked}>
           <FaLinkedinIn />
         </div>
+        </OverlayTrigger>
+        <OverlayTrigger
+            placement="left"
+            delay={{ show: 250, hide: 400 }}
+            overlay={RenderTooltipGithub}
+          >
         <div className={classes.iconDiv} onClick={goToGit}>
           <FaGithub />
         </div>
+        </OverlayTrigger>
       </div>
-    </div>
+    </article>
   );
 };
 

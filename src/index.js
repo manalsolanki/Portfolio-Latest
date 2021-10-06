@@ -10,12 +10,12 @@ ReactDOM.render(
   <React.StrictMode>
     <div>
       <main>
-        <div className={classes.container}>
+        <section className={classes.container}>
           <Banner />
           <div className={classes.content}>
             <Content />
           </div>
-        </div>
+        </section>
       </main>
     </div>
   </React.StrictMode>,

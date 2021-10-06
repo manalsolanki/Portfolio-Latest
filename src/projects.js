@@ -1,13 +1,5 @@
 const projects = [
-    {
-        "name": "Royal Canin",
-        "shortDescription": "While working at Winobell-Inc, our client was Royal Canin. Created as well updated webpages according to their own design language.",
-        "link": "https://fulldev-vet-royalcanin-ca.cs28.force.com/",
-        "imgSrc": "/royalCanin.png",
-        "Description":"Worked together with client, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation. Worked on enchaning webpages using Visualforce Pages",    
-        "roles":"UI/UX Designer",
-        "Technologies":"HTML, Visualforce Pages, Design Language"
-    },
+    
     {
         "name": "Web Lancers",
         "shortDescription": "WebLancer  is created using PHP and MySQL and it is a secure web application connecting Freelancers with Employers/Project owners who are looking for web services.",
