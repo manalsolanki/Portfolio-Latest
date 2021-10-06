@@ -103,11 +103,11 @@ const Content = (props) => {
             Worked together with client Royal Canin, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation. Worked on enchaning webpages using Visualforce Pages
             </p>
             <div className={classes.experienceLink}>
-            <a  href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank">Live</a>
+            <a  href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer">Live</a>
             </div>
           </div>
           <div className={classes.experienceImg}>
-            <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank"> <img src="./royalCanin.png" alt="Screenshot of Royal Canin Website"/></a>
+            <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer"> <img src="./royalCanin.png" alt="Screenshot of Royal Canin Website"/></a>
           </div>
         </div>
         <div className={classes.services} id="projects">
