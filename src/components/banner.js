@@ -4,17 +4,17 @@ import Typed from "react-typed";
 import { FaEnvelope, FaGithub, FaLinkedinIn, FaFilePdf } from "react-icons/fa";
 
 const Banner = (props) => {
-  const goToGit = () => {
-    window.open("https://github.com/manalsolanki");
-  };
+  // const goToGit = () => {
+  //   <a href="https://github.com/manalsolanki"></a>
+  // };
 
-  const goToLinked = () => {
-    window.open("https://www.linkedin.com/in/manal-solanki-96491419b");
-  };
+  // const goToLinked = () => {
+  //   window.open("https://www.linkedin.com/in/manal-solanki-96491419b");
+  // };
 
-  const downloadResume = () => {
-    window.open('/ManalSolanki-WebDeveloper.pdf');
-  };
+  // const downloadResume = () => {
+  //   window.open('/ManalSolanki-WebDeveloper.pdf');
+  // };
   const RenderTooltipEmail = (props) => (
     <Tooltip id="button-tooltip" {...props}>
       Email
@@ -61,7 +61,6 @@ const Banner = (props) => {
         </p>
       </div>
       <div className={classes.iconContainer}>
-        
           <OverlayTrigger
             placement="left"
             delay={{ show: 250, hide: 400 }}
@@ -78,8 +77,8 @@ const Banner = (props) => {
             delay={{ show: 250, hide: 400 }}
             overlay={RenderTooltipResume}
           >
-        <div className={classes.iconDiv} onClick={downloadResume}>
-          <FaFilePdf />
+        <div className={classes.iconDiv}>
+          <a href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer"><FaFilePdf /></a>
         </div>
         </OverlayTrigger>
         <OverlayTrigger
@@ -87,8 +86,9 @@ const Banner = (props) => {
             delay={{ show: 250, hide: 400 }}
             overlay={RenderTooltipLinkedin}
           >
-        <div className={classes.iconDiv} onClick={goToLinked}>
-          <FaLinkedinIn />
+        <div className={classes.iconDiv}>
+          <a href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+          
         </div>
         </OverlayTrigger>
         <OverlayTrigger
@@ -96,8 +96,10 @@ const Banner = (props) => {
             delay={{ show: 250, hide: 400 }}
             overlay={RenderTooltipGithub}
           >
-        <div className={classes.iconDiv} onClick={goToGit}>
+        <div className={classes.iconDiv}>
+          <a href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
           <FaGithub />
+          </a>
         </div>
         </OverlayTrigger>
       </div>

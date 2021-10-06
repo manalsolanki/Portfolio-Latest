@@ -16,7 +16,7 @@ const Project = (props) => {
                     <div className={classes.projectTitle}>{props.project.name}</div>
                     <img src={props.project.imgSrc} alt="project" />
                 </div>
-                <p className={classes.projectDesc}>{props.project.shortDescription}</p>
+                <p className={classes.projectDesc}>{props.project.shortDescription} <br/> <b className={projectClasses.readMore}>Read More..</b></p>
                 {/* </a>  */}
             </div>
             <Modal show={show} size="lg" centered>

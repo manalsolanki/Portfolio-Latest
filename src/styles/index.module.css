@@ -58,6 +58,9 @@
   cursor: pointer;
   transition: all 0.5s ease;
 }
+.iconDiv a{
+  color: white;
+}
 
 .iconDiv:hover{
   background-color: #ff9901;
