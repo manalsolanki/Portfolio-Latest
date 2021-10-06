@@ -21,6 +21,16 @@ const projects = [
     "Technologies":"NodeJs , Express handlerbars and Mongodb"
 },
 {
+    "name": "Travelocity Replica",
+    "shortDescription":"Designed the layout as well as logo. Also prepared wireframes and website using the best pratices.",
+    "link": "https://manalsolanki.github.io/composite_project_1/",
+    "imgSrc": "/travelocity.png",
+    "Description": "Designed the layout as well as the logo of this website using Adobe XD and Illustrator respectively.Also prepared low and high fedility wireframes.After desiging developed the website keeping in mind the best practices of SEO as well as used the HTML5 and CSS3 format for designing.",
+    "github":"https://github.com/manalsolanki/composite_project_1",
+    "roles":"Designer, Developer",
+    "Technologies":"Adobe XD, Illustrator, HTML, CSS"
+},
+{
     "name": "Beats On Travel",
     "shortDescription":"The Project “Beats on Travel“ is a application which calculates the travel time on car(that is distance between one city to another) and according to that travel time a song is played.",
     "link": "https://beats-on-travel.netlify.app/",
@@ -50,17 +60,8 @@ const projects = [
     "roles":"Designer, Developer",
     "wireframes":"",
     "Technologies":"Adobe XD, Photoshop, HTML, CSS"
-},
-{
-    "name": "Travelocity Replica",
-    "shortDescription":"Designed the layout as well as logo. Also prepared wireframes and website using the best pratices.",
-    "link": "https://manalsolanki.github.io/composite_project_1/",
-    "imgSrc": "/travelocity.png",
-    "Description": "Designed the layout as well as the logo of this website using Adobe XD and Illustrator respectively.Also prepared low and high fedility wireframes.After desiging developed the website keeping in mind the best practices of SEO as well as used the HTML5 and CSS3 format for designing.",
-    "github":"https://github.com/manalsolanki/composite_project_1",
-    "roles":"Designer, Developer",
-    "Technologies":"Adobe XD, Illustrator, HTML, CSS"
-},
+}
+
 ]
 
 export default projects;
