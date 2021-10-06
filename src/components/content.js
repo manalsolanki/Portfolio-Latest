@@ -25,6 +25,9 @@ const Content = (props) => {
         <div data-scroll="skills" onClick={handleTab} className={classes.title}>
           Skills
         </div>
+        <div data-scroll="experience" onClick={handleTab} className={classes.title}>
+          Experience
+        </div>
         <div
           data-scroll="projects"
           onClick={handleTab}
