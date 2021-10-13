@@ -32,7 +32,7 @@ const Project = (props) => {
                             <p>{props.project.Description}</p>
                             <div>
                             {props.project.github && <a className={projectClasses.modalLink} href={props.project.github}  target="_blank" rel="noreferrer">GitHub</a>} 
-                            
+                            {props.project.CaseStudy && <a className={projectClasses.modalLink} href={props.project.CaseStudy}  target="_blank" rel="noreferrer">Case Study</a> }
                             <a href={props.project.link} className={projectClasses.modalLink}  target="_blank" rel="noreferrer">Live</a>
                             </div>
                         </div>

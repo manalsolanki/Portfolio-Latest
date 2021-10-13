@@ -28,7 +28,8 @@ const projects = [
     "Description": "Designed the layout as well as the logo of this website using Adobe XD and Illustrator respectively.Also prepared low and high fedility wireframes.After desiging developed the website keeping in mind the best practices of SEO as well as used the HTML5 and CSS3 format for designing.",
     "github":"https://github.com/manalsolanki/composite_project_1",
     "roles":"Designer, Developer",
-    "Technologies":"Adobe XD, Illustrator, HTML, CSS"
+    "Technologies":"Adobe XD, Illustrator, HTML, CSS",
+    "CaseStudy":"/Case-Study-Travelocity.pdf"
 },
 {
     "name": "Beats On Travel",
