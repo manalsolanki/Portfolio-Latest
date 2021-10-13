@@ -6,8 +6,21 @@
     background-color: #ff9901;
     border-radius:5px;
     margin-right: 10px;
-}
 
+}
+.modalLink{
+    background-color: #ff9901;
+    border-radius:5px;
+    text-decoration: none;
+    padding:10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    margin-right: 10px;
+}
+.modalLink:hover{
+    color: white;
+}
 .modalText{
     padding-right:1em;
 }

@@ -78,7 +78,7 @@ const Banner = (props) => {
             overlay={RenderTooltipResume}
           >
         <div className={classes.iconDiv}>
-          <a href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer"><FaFilePdf /></a>
+          <a href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer" target="_blank"><FaFilePdf /></a>
         </div>
         </OverlayTrigger>
         <OverlayTrigger
@@ -88,7 +88,6 @@ const Banner = (props) => {
           >
         <div className={classes.iconDiv}>
           <a href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-          
         </div>
         </OverlayTrigger>
         <OverlayTrigger

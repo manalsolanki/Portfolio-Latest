@@ -14,17 +14,17 @@ import classes from "../styles/content.module.css";
 
 const ContactForm = props => {
   // const [message, setMessage] = useState({ error: false, text: "" });
-  const goToGit = () => {
-    window.open("https://github.com/manalsolanki");
-  };
+  // const goToGit = () => {
+  //   window.open("https://github.com/manalsolanki");
+  // };
 
-  const goToLinked = () => {
-    window.open("https://www.linkedin.com/in/manal-solanki-96491419b/");
-  };
+  // const goToLinked = () => {
+  //   window.open("https://www.linkedin.com/in/manal-solanki-96491419b/");
+  // };
 
-  const downloadResume = () => {
-    window.open("/ManalSolanki-WebDeveloper.pdf");
-  };
+  // const downloadResume = () => {
+  //   window.open("/ManalSolanki-WebDeveloper.pdf");
+  // };
 
   
   // const submitQuery = (e) => {
@@ -110,15 +110,15 @@ const ContactForm = props => {
                 >
                   <FaEnvelope style={{color:"black"}} />
                 </a>
-                <div className={classes.socialIcons} onClick={downloadResume}>
+                <a className={classes.socialIcons}  href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer" target="_blank">
                   <FaFilePdf />
-                </div>
-                <div className={classes.socialIcons} onClick={goToLinked}>
+                </a>
+                <a className={classes.socialIcons} href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer">
                   <FaLinkedinIn />
-                </div>
-                <div className={classes.socialIcons} onClick={goToGit}>
+                </a>
+                <a className={classes.socialIcons} href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
                   <FaGithub />
-                </div>
+                </a>
               </div>
             </div>
             <div />

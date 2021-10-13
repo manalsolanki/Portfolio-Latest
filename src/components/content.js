@@ -123,10 +123,7 @@ const Content = (props) => {
 
           
         </div>
-        {/* <div classNameName={classes.work} id="work">
-          <h1 className={classnames(classes.underlineText)}>Work</h1>
-          Work
-        </div> */}
+        
         <ContactForm />
       </div>
     </>

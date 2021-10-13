@@ -3,20 +3,20 @@ import projectClasses from "../styles/project.module.css";
 import { useState } from "react";
 import { Modal } from "react-bootstrap";
 const Project = (props) => {
-    const gotoGithub = () => {window.open(props.project.github)}
-    const goLive = () => {window.open(props.project.link)}
+    // const gotoGithub = () => {window.open(props.project.github)}
+    // const goLive = () => {window.open(props.project.link)}
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
     return (
         <div>
-            <div onClick={handleShow}>
+            <div onClick={handleShow} tabIndex="0">
                 {/* <a href={props.project.link}> */}
                 <div className={classes.imgDiv}>
                     <div className={classes.projectTitle}>{props.project.name}</div>
                     <img src={props.project.imgSrc} alt="project" />
                 </div>
-                <p className={classes.projectDesc}>{props.project.shortDescription} <br/> <b className={projectClasses.readMore}>Read More..</b></p>
+                <p className={classes.projectDesc} >{props.project.shortDescription}  <br/> <b className={projectClasses.readMore}>Read More..</b></p>
                 {/* </a>  */}
             </div>
             <Modal show={show} size="lg" centered>
@@ -31,9 +31,9 @@ const Project = (props) => {
                             <p><b>Roles :</b> {props.project.roles}</p>
                             <p>{props.project.Description}</p>
                             <div>
-                            {props.project.github && <button className={projectClasses.modalButton} onClick={gotoGithub}>GitHub</button>} 
+                            {props.project.github && <a className={projectClasses.modalLink} href={props.project.github}  target="_blank" rel="noreferrer">GitHub</a>} 
                             
-                            <button className={projectClasses.modalButton} onClick={goLive}>Live</button>
+                            <a href={props.project.link} className={projectClasses.modalLink}  target="_blank" rel="noreferrer">Live</a>
                             </div>
                         </div>
                         <img className={projectClasses.modalImg} src={props.project.imgSrc} alt="project"/>
