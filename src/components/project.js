@@ -10,7 +10,7 @@ const Project = (props) => {
     const handleShow = () => setShow(true);
     return (
         <div>
-            <div onClick={handleShow} tabIndex="0">
+            <div onClick={handleShow} onKeyPress={handleShow}  tabIndex="0">
                 {/* <a href={props.project.link}> */}
                 <div className={classes.imgDiv}>
                     <div className={classes.projectTitle}>{props.project.name}</div>
