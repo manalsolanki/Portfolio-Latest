@@ -1,15 +1,15 @@
 const projects = [
     
-    {
-        "name": "Web Lancers",
-        "shortDescription": "WebLancer  is created using PHP and MySQL and it is a secure web application connecting Freelancers with Employers/Project owners who are looking for web services.",
-        "link": "https://weblancers.herokuapp.com/home.php",
-        "imgSrc": "/webLancers.png",
-        "Description":"WebLancer is a secure web application connecting Freelance Professional Web Developers with Employers/Project Owners who are looking for web services.Implemented Features like Registration , Login/Logout , subscription to newsletter ,adding a project and many more.",
-        "github":"https://github.com/Ninja-Coders-PHP/WebLancer-Final",
-        "roles":"Developer, Designer, Team Leader",
-        "Technologies":"PHP, MySQL"
-    },
+    // {
+    //     "name": "Web Lancers",
+    //     "shortDescription": "WebLancer  is created using PHP and MySQL and it is a secure web application connecting Freelancers with Employers/Project owners who are looking for web services.",
+    //     "link": "https://weblancers.herokuapp.com/home.php",
+    //     "imgSrc": "/webLancers.png",
+    //     "Description":"WebLancer is a secure web application connecting Freelance Professional Web Developers with Employers/Project Owners who are looking for web services.Implemented Features like Registration , Login/Logout , subscription to newsletter ,adding a project and many more.",
+    //     "github":"https://github.com/Ninja-Coders-PHP/WebLancer-Final",
+    //     "roles":"Developer, Designer, Team Leader",
+    //     "Technologies":"PHP, MySQL"
+    // },
     {
     "name": "Amazon Replica",
     "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
