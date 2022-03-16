@@ -51,7 +51,7 @@ const Content = (props) => {
           <div>
             <h1 className={classnames(classes.underlineText)}>About Me</h1>
             <div>
-              Meticulous web designer and developer with over 2 years of experience in
+              Meticulous web designer and developer with over 3 years of experience in
               blending the art of design with skills of programming to deliver an immersive and engaging user experience.
               I am passionate about my work and love to do all my work with 100% dedication.
               I like to work with multidisciplinary team of dedicated professionals,
@@ -91,39 +91,39 @@ const Content = (props) => {
             </p>
           </div>
         </div>
-        <div  className={classes.skills} id="experience">
+        <div className={classes.skills} id="experience">
           <div>
             <h1 className={classnames(classes.underlineText)}>Work Experience</h1>
           </div>
-         <div/>
+          <div />
           <div>
             <h3>Winobell Inc, Canada (July 2020 - Aug 2021)</h3>
             <h4>UI/UX Designer</h4>
             <p className="skills-description">
-            Worked together with client Royal Canin, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation. Worked on enchaning webpages using Visualforce Pages
+              Worked together with client Royal Canin, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation. Worked on enchaning webpages using Visualforce Pages
             </p>
             <div className={classes.experienceLink}>
-            <a  href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer">Live</a>
+              <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer">Live</a>
             </div>
           </div>
           <div className={classes.experienceImg}>
-            <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer"> <img src="./royalCanin.png" alt="Screenshot of Royal Canin Website"/></a>
+            <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer"> <img src="./royalCanin.png" alt="Screenshot of Royal Canin Website" /></a>
           </div>
         </div>
         <div className={classes.services} id="projects">
           <h1 className={classnames(classes.underlineText)}>Projects</h1>
-      
-            <div className={classes.projectContainer}>
-              {projects.map(project => {
-                return (<div className={classes.projectSection}>
-                  <Project project={project}></Project>
-                </div>)
-              })}
-            </div>
 
-          
+          <div className={classes.projectContainer}>
+            {projects.map(project => {
+              return (<div className={classes.projectSection}>
+                <Project project={project}></Project>
+              </div>)
+            })}
+          </div>
+
+
         </div>
-        
+
         <ContactForm />
       </div>
     </>
