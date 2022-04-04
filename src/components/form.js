@@ -26,7 +26,7 @@ const ContactForm = props => {
   //   window.open("/ManalSolanki-WebDeveloper.pdf");
   // };
 
-  
+
   // const submitQuery = (e) => {
   //   e.preventDefault();
   //   e.persist()
@@ -55,22 +55,22 @@ const ContactForm = props => {
   //   }
   // };
 
-  return(
-<div className={classes.contact} id="contact">
-          <h1 className={classes.centerUnderLine}>
-            Let's develop something creative
-          </h1>
-          <p>
-            Please feel free to reach out to me. Thanks.
-            {/* I'm a freelance developer along with working as a Fullstack
+  return (
+    <div className={classes.contact} id="contact">
+      <h1 className={classes.centerUnderLine}>
+        Let's develop something creative
+      </h1>
+      <p>
+        Please feel free to reach out to me. Thanks.
+        {/* I'm a freelance developer along with working as a Fullstack
             developer and always eager to work on new and creative ideas. I work
             in a structural and professional manner by following best practices
             and standards. Besides development, also interested in Data Science
             work and looking for opportunity to deep dive into these fields. */}
-          </p>
-          <div className={classes.contactForm}>
-            <div>
-              {/* <form onSubmit={submitQuery}>
+      </p>
+      <div className={classes.contactForm}>
+        <div>
+          {/* <form onSubmit={submitQuery}>
                 <input
                   required
                   name="username"
@@ -98,32 +98,32 @@ const ContactForm = props => {
                   <FaTelegramPlane style={{ fontSize: "1.3rem" }} />
                 </button>
               </form> */}
-            </div>
-            <div>
-              <h4>Reach me</h4>
-              <p>Email: 97manal@gmail.com</p>
-              <p>Contact: +437-776-9678</p>
-              <div className="d-flex">
-                <a
-                  href="mailto:97manal@gmail.com"
-                  className={classes.socialIcons}
-                >
-                  <FaEnvelope style={{color:"black"}} />
-                </a>
-                <a className={classes.socialIcons}  href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer" target="_blank">
-                  <FaFilePdf />
-                </a>
-                <a className={classes.socialIcons} href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer">
-                  <FaLinkedinIn />
-                </a>
-                <a className={classes.socialIcons} href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
-                  <FaGithub />
-                </a>
-              </div>
-            </div>
-            <div />
+        </div>
+        <div>
+          <h4>Reach me</h4>
+          <p>Email: 97manal@gmail.com</p>
+          <p>Contact: +1437-776-9678</p>
+          <div className="d-flex">
+            <a
+              href="mailto:97manal@gmail.com"
+              className={classes.socialIcons}
+            >
+              <FaEnvelope style={{ color: "black" }} />
+            </a>
+            <a className={classes.socialIcons} href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer" target="_blank">
+              <FaFilePdf />
+            </a>
+            <a className={classes.socialIcons} href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer">
+              <FaLinkedinIn />
+            </a>
+            <a className={classes.socialIcons} href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
+              <FaGithub />
+            </a>
           </div>
         </div>
+        <div />
+      </div>
+    </div>
   )
 }
 
