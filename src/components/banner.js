@@ -61,45 +61,45 @@ const Banner = (props) => {
         </p>
       </div>
       <div className={classes.iconContainer}>
-          <OverlayTrigger
-            placement="left"
-            delay={{ show: 250, hide: 400 }}
-            overlay={RenderTooltipEmail}
-          >
-        <div className={classes.iconDiv}>
+        <OverlayTrigger
+          placement="left"
+          delay={{ show: 250, hide: 400 }}
+          overlay={RenderTooltipEmail}
+        >
+          <div className={classes.iconDiv}>
             <a href="mailto:97manal@gmail.com">
-              <FaEnvelope style={{ color: "white" }}  />
+              <FaEnvelope style={{ color: "white" }} />
             </a>
-        </div>
+          </div>
         </OverlayTrigger>
         <OverlayTrigger
-            placement="left"
-            delay={{ show: 250, hide: 400 }}
-            overlay={RenderTooltipResume}
-          >
-        <div className={classes.iconDiv}>
-          <a href="/Manal-WebDeveloper.pdf" rel="noreferrer" target="_blank"><FaFilePdf /></a>
-        </div>
+          placement="left"
+          delay={{ show: 250, hide: 400 }}
+          overlay={RenderTooltipResume}
+        >
+          <div className={classes.iconDiv}>
+            <a href="/ManalSolanki-WebDeveloper.pdf" rel="noreferrer" target="_blank"><FaFilePdf /></a>
+          </div>
         </OverlayTrigger>
         <OverlayTrigger
-            placement="left"
-            delay={{ show: 250, hide: 400 }}
-            overlay={RenderTooltipLinkedin}
-          >
-        <div className={classes.iconDiv}>
-          <a href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
-        </div>
+          placement="left"
+          delay={{ show: 250, hide: 400 }}
+          overlay={RenderTooltipLinkedin}
+        >
+          <div className={classes.iconDiv}>
+            <a href="https://www.linkedin.com/in/manal-solanki-96491419b" target="_blank" rel="noreferrer"><FaLinkedinIn /></a>
+          </div>
         </OverlayTrigger>
         <OverlayTrigger
-            placement="left"
-            delay={{ show: 250, hide: 400 }}
-            overlay={RenderTooltipGithub}
-          >
-        <div className={classes.iconDiv}>
-          <a href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
-          <FaGithub />
-          </a>
-        </div>
+          placement="left"
+          delay={{ show: 250, hide: 400 }}
+          overlay={RenderTooltipGithub}
+        >
+          <div className={classes.iconDiv}>
+            <a href="https://github.com/manalsolanki" target="_blank" rel="noreferrer">
+              <FaGithub />
+            </a>
+          </div>
         </OverlayTrigger>
       </div>
     </article>
