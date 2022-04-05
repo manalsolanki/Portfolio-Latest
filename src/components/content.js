@@ -51,7 +51,7 @@ const Content = (props) => {
           <div>
             <h1 className={classnames(classes.underlineText)}>About Me</h1>
             <div>
-              Meticulous web designer and developer with over 3 years of experience in
+              Meticulous web designer and developer with over 2 years of experience in
               blending the art of design with skills of programming to deliver an immersive and engaging user experience.
               I am passionate about my work and love to do all my work with 100% dedication.
               I like to work with multidisciplinary team of dedicated professionals,
@@ -81,7 +81,7 @@ const Content = (props) => {
           <div>
             <h3>Frameworks</h3>
             <p className="skills-description">
-              ASP.NET, Express, Bootstrap
+              ASP.NET, Express, Bootstrap, WordPress
             </p>
           </div>
           <div>

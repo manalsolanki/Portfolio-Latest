@@ -10,13 +10,13 @@ const Project = (props) => {
     const handleShow = () => setShow(true);
     return (
         <div>
-            <div onClick={handleShow} onKeyPress={handleShow}  tabIndex="0">
+            <div onClick={handleShow} onKeyPress={handleShow} tabIndex="0">
                 {/* <a href={props.project.link}> */}
                 <div className={classes.imgDiv}>
                     <div className={classes.projectTitle}>{props.project.name}</div>
-                    <img src={props.project.imgSrc} alt="project" />
+                    <img src={props.project.imgSrc} alt="project" height="173" />
                 </div>
-                <p className={classes.projectDesc} >{props.project.shortDescription}  <br/> <b className={projectClasses.readMore}>Read More..</b></p>
+                <p className={classes.projectDesc} >{props.project.shortDescription}  <br /> <b className={projectClasses.readMore}>Read More..</b></p>
                 {/* </a>  */}
             </div>
             <Modal show={show} size="lg" centered>
@@ -27,16 +27,16 @@ const Project = (props) => {
                 <Modal.Body>
                     <div className="d-flex">
                         <div className={projectClasses.modalText}>
-                        <p><b>Technologies :</b> {props.project.Technologies}</p>
+                            <p><b>Technologies :</b> {props.project.Technologies}</p>
                             <p><b>Roles :</b> {props.project.roles}</p>
                             <p>{props.project.Description}</p>
                             <div>
-                            {props.project.github && <a className={projectClasses.modalLink} href={props.project.github}  target="_blank" rel="noreferrer">GitHub</a>} 
-                            {props.project.CaseStudy && <a className={projectClasses.modalLink} href={props.project.CaseStudy}  target="_blank" rel="noreferrer">Case Study</a> }
-                            <a href={props.project.link} className={projectClasses.modalLink}  target="_blank" rel="noreferrer">Live</a>
+                                {props.project.github && <a className={projectClasses.modalLink} href={props.project.github} target="_blank" rel="noreferrer">GitHub</a>}
+                                {props.project.CaseStudy && <a className={projectClasses.modalLink} href={props.project.CaseStudy} target="_blank" rel="noreferrer">Case Study</a>}
+                                <a href={props.project.link} className={projectClasses.modalLink} target="_blank" rel="noreferrer">Live</a>
                             </div>
                         </div>
-                        <img className={projectClasses.modalImg} src={props.project.imgSrc} alt="project"/>
+                        <img className={projectClasses.modalImg} src={props.project.imgSrc} alt="project" />
                     </div>
 
                 </Modal.Body>
