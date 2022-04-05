@@ -11,6 +11,17 @@ const projects = [
     //     "Technologies":"PHP, MySQL"
     // },
     {
+        "name": "Inventory Management",
+        "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
+        "link": "https://verdant-taffy-1d8101.netlify.app/",
+        "imgSrc": "/inventory-managemnet.png",
+        "shortDescription": "I have created a replica of the Amazon website using NodeJs, express handlerbars and Mongodb.This includes different modules like registration,sign up,cart or adding items. ",
+        "github": "https://github.com/manalsolanki/Inventory-Management-Frontend",
+        "roles": "Developer, Designer",
+        "Technologies": "ReactJS, NodeJs, SQL"
+
+    },
+    {
         "name": "Amazon Replica",
         "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
         "link": "https://amazon-website-assignment.herokuapp.com/",
