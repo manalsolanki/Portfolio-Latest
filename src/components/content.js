@@ -97,11 +97,10 @@ const Content = (props) => {
           </div>
           <div />
           <div>
-            <h3>Winobell Inc, Canada (July 2020 - Aug 2021)</h3>
-            <h4>UI/UX Designer</h4>
+            <h3>Winobell Inc, Canada (Aug 2020 - Jan 2021)</h3>
+            <h4>FrontEnd Developer</h4>
             <p className="skills-description">
-              Worked together with client Royal Canin, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation. Worked on enchaning webpages using Visualforce Pages
-            </p>
+              Worked together with client Royal Canin, designers and engineers to gather requirement and plan the design and structure of front-end interface.Created new web pages and re-designed existing ones with the help of their own design language. Implemented mobile first approach in all the design implementation.             </p>
             <div className={classes.experienceLink}>
               <a href="https://fulldev-vet-royalcanin-ca.cs28.force.com/" target="_blank" rel="noreferrer">Live</a>
             </div>

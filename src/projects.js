@@ -12,10 +12,10 @@ const projects = [
     // },
     {
         "name": "Inventory Management",
-        "Description": "I have created a replica of the Amazon website.This includes different modules like registration,sign up,cart where customers can add product to their cart and would be notified with an email on placing the order and an inventory clerk module through which the retailers can upload and manage their products.",
+        "Description": "We at our home was facing issue realted to grocery so I planned to reate something useful. We can keep track of items avalibale at home and how much is left. Also as it is ongoing project fruther we can add to buy list as well filtering and sorting of items based on price.",
         "link": "https://verdant-taffy-1d8101.netlify.app/",
         "imgSrc": "/inventory-managemnet.png",
-        "shortDescription": "I have created a replica of the Amazon website using NodeJs, express handlerbars and Mongodb.This includes different modules like registration,sign up,cart or adding items. ",
+        "shortDescription": "The main aim of this project is to maintain the home grocery. Technologies used are ReactJs, NodeJs & SQL and this a ongoing project.",
         "github": "https://github.com/manalsolanki/Inventory-Management-Frontend",
         "roles": "Developer, Designer",
         "Technologies": "ReactJS, NodeJs, SQL"
